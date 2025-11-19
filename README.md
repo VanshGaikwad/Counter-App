@@ -2,14 +2,23 @@
 
 A simple and stylish Counter App built using **React**. This project demonstrates components, state management, and custom CSS styling.
 
+🔗 **Live Demo:**  
+https://counter-app-pi-liard.vercel.app/
+
+---
+
+## 🖼️ Preview
+
+![Counter App Screenshot](./public/screenshot.png)
+
 ---
 
 ## 🚀 Features
 
-* Simple counter display
-* Increment (+) and decrement (-) buttons
-* Clean and elegant cartoon-style UI
-* Easy to customize
+- Simple counter display  
+- Increment (+) and decrement (-) buttons  
+- Clean and elegant cartoon-style UI  
+- Easy to customize  
 
 ---
 
@@ -54,8 +63,8 @@ npm run dev
 
 ## 🧩 Usage
 
-* Click **+** button → Increase number
-* Click **-** button → Decrease number
+- Click **+** button → Increase number  
+- Click **-** button → Decrease number  
 
 You can customize the counter value, style, or layout easily inside `App.jsx` and `app.css`.
 
@@ -64,35 +73,22 @@ You can customize the counter value, style, or layout easily inside `App.jsx` an
 ## 📜 Code Overview
 
 ### `App.jsx`
-
-* Renders the counter UI
-* Contains buttons and number display
+- Renders the counter UI  
+- Contains buttons and number display  
 
 ### `app.css`
-
-* Contains cartoon-style CSS with rich fonts and colorful styles
+- Contains cartoon-style CSS with rich fonts and colorful styles  
 
 ---
 
 ## 📌 Required Dependencies
 
-* React
-* Vite (optional, if using Vite setup)
-
----
-
-## 🖼️ Preview (Optional)
-
-Add screenshots of your app here:
-
-```
-/screenshots/app.png
-```
+- React  
+- Vite (if using Vite setup)
 
 ---
 
 ## © Credits
 
-Created by **Vansh Gaikwad**
-
+Created by **Vansh Gaikwad**  
 Feel free to modify and enhance the project!
