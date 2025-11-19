@@ -1,16 +1,98 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish Counter App built using **React**. This project demonstrates components, state management, and custom CSS styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Simple counter display
+* Increment (+) and decrement (-) buttons
+* Clean and elegant cartoon-style UI
+* Easy to customize
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+│-- App.jsx
+│-- app.css
+│-- index.js
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone <your-repo-url>
+```
+
+2. Navigate into the project folder:
+
+```
+cd counter-app
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🧩 Usage
+
+* Click **+** button → Increase number
+* Click **-** button → Decrease number
+
+You can customize the counter value, style, or layout easily inside `App.jsx` and `app.css`.
+
+---
+
+## 📜 Code Overview
+
+### `App.jsx`
+
+* Renders the counter UI
+* Contains buttons and number display
+
+### `app.css`
+
+* Contains cartoon-style CSS with rich fonts and colorful styles
+
+---
+
+## 📌 Required Dependencies
+
+* React
+* Vite (optional, if using Vite setup)
+
+---
+
+## 🖼️ Preview (Optional)
+
+Add screenshots of your app here:
+
+```
+/screenshots/app.png
+```
+
+---
+
+## © Credits
+
+Created by **Vansh Gaikwad**
+
+Feel free to modify and enhance the project!
